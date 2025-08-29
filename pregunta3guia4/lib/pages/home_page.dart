@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Galería de imágenes'),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.deepOrange,
       ),
       body: GridView.extent(
         maxCrossAxisExtent: 150,
